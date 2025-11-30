@@ -92,6 +92,8 @@ document.querySelector(".bar").onclick = e =>{
 }
 
 // Initial load
-audio.addEventListener("loadedmetadata", ()=>{
-  loadSong(currentSongIndex);
-})
+
+loadSong(currentSongIndex);
+btnPlay.children[1].classList.add("inactive");
+btnPlay.children[0].classList.remove("inactive");
+audio.pause();
