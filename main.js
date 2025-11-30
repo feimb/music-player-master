@@ -68,6 +68,9 @@ function loadSong(index) {
   audio.addEventListener("loadedmetadata", () => {
     document.querySelector(".total-time").textContent = format(audio.duration);
   })
+  btnPlay.children[0].classList.add("inactive");
+  btnPlay.children[1].classList.remove("inactive");
+  audio.play()
 }
 
 function updateProgressBar() {
