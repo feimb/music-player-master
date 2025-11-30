@@ -1,0 +1,139 @@
+:root{
+    --bg-card-color: #212936; 
+    --white-color: #E5E7EB;
+    /* --btn-prev-color: #4D5562; */
+    --bar-full-color:#C93B76;
+
+    --font-author-color:#4D5562;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-image: url(resources/gradient-bg-small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.music-card{
+    background-color: var(--bg-card-color);
+    width: 350px;
+    height: 514px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.music-card .img-song{
+    height: 306px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 14px;
+}
+.music-card .song-details .song-title{
+    font-size: 1rem;
+    margin-bottom: 3px;
+    font-weight: 600;
+    color: var(--white-color);
+
+}
+.music-card .song-details .song-artist{
+    font-size: .75rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: var(--white-color);
+    font-weight: 100;
+}
+.music-card .progress-bar{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.music-card .progress-bar .counters{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: .625rem;
+    color: var(--white-color);
+    font-weight: 100;
+} 
+.music-card .progress-bar .bar{
+    --progress: 0%;
+    width: 100%;
+    height: 5px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    position: relative;
+}
+
+.music-card .progress-bar .bar .bar-value{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--progress);
+    height: 5px;
+    background-color: var(--bar-full-color);
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0.5px var(--bar-full-color);
+
+}
+.music-card .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+.music-card .controls > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.music-card .controls #btn-play{
+    width: 48px;
+    height: 48px;
+    background-color: var(--bar-full-color);
+    border-radius: 50%;
+    filter: drop-shadow(0px 8px 16px rgba(201, 59, 118, 0.25));
+} 
+.music-card .controls #btn-prev:hover,
+.music-card .controls #btn-next:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}  
+.music-card .controls #btn-play:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.music-card .controls #btn-play:active{
+    transform: scale(0.9);
+}
+.music-card .controls #btn-play svg{
+    display: flex;
+    margin: auto;
+}  
+
+
+.inactive {
+    position: absolute;
+    display: none; 
+}
+.inactive > *  {
+    display: none; 
+}
+@media (width > 1024px) {
+    body{
+        background-image: url(resources/gradient-bg.jpg);
+    }
+}
