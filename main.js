@@ -92,4 +92,6 @@ document.querySelector(".bar").onclick = e =>{
 }
 
 // Initial load
-loadSong(currentSongIndex);
+audio.addEventListener("loadedmetadata", ()=>{
+  loadSong(currentSongIndex);
+})
