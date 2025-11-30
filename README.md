@@ -30,19 +30,19 @@ For more information about the challenge, access the challenge editor on [devCha
 
 ## Steps to Complete the Challenge on devChallenges.io
 
-- [ ] Start by visiting [devChallenges.io](https://devchallenges.io/), navigate to the challenge page, and begin the challenge.
-- [ ] Once you have started the challenge, you will have access to the editor where you can download the necessary resources, check colors, fonts, and more.
-- [ ] Download the starter/resources, and if you are a Pro user, you can also download the Figma file.
-- [ ] Initialize the project as a Git repository.
-- [ ] Review the design and analyze the different versions for desktop, tablet, and mobile.
-- [ ] Plan your approach to the project by identifying reusable CSS classes and structuring your HTML content.
-- [ ] Define the base styles for your project, including font-family, font-size, and other general content styles.
-- [ ] Begin adding styles from the top of the page and work your way down, ensuring that each section is visually appealing and matches the provided design.
-- [ ] Optimize and resize the required assets from the `/images` folder as necessary.
-- [ ] Test your project's responsiveness by previewing it on different devices and screen sizes.
-- [ ] Once you are satisfied with your implementation, deploy your project to a hosting platform such as GitHub Pages, Vercel, or Netlify.
-- [ ] Submit your solution on devchallenges.io and aim to pass the design comparison and performance tests.
-- [ ] Replace the default `README.md` file with a custom one that explains your project and reflects on your learning experience. You can use the provided `README-template.md` as a starting point.
+- [X] Start by visiting [devChallenges.io](https://devchallenges.io/), navigate to the challenge page, and begin the challenge.
+- [X] Once you have started the challenge, you will have access to the editor where you can download the necessary resources, check colors, fonts, and more.
+- [X] Download the starter/resources, and if you are a Pro user, you can also download the Figma file.
+- [X] Initialize the project as a Git repository.
+- [X] Review the design and analyze the different versions for desktop, tablet, and mobile.
+- [X] Plan your approach to the project by identifying reusable CSS classes and structuring your HTML content.
+- [X] Define the base styles for your project, including font-family, font-size, and other general content styles.
+- [X] Begin adding styles from the top of the page and work your way down, ensuring that each section is visually appealing and matches the provided design.
+- [X] Optimize and resize the required assets from the `/images` folder as necessary.
+- [X] Test your project's responsiveness by previewing it on different devices and screen sizes.
+- [X] Once you are satisfied with your implementation, deploy your project to a hosting platform such as GitHub Pages, Vercel, or Netlify.
+- [X] Submit your solution on devchallenges.io and aim to pass the design comparison and performance tests.
+- [X] Replace the default `README.md` file with a custom one that explains your project and reflects on your learning experience. You can use the provided `README-template.md` as a starting point.
 - [ ] Share your solution with the devChallenges.io community by tweeting [@devchallengesio](https://twitter.com/devchallengesio) and mentioning the repository and live URLs in your tweet. You can also share your solution on other social channels or write a blog post about your experience.
 - [ ] Seek feedback from the community by using the provided templates or asking specific questions about your implementation.
 
