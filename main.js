@@ -67,8 +67,11 @@ function loadSong(index) {
   document.querySelector(".current-time").textContent = "00:00";
   audio.addEventListener("loadedmetadata", () => {
     document.querySelector(".total-time").textContent = format(audio.duration);
-  })
 
+  })
+  if(!audio.paused){
+    playPause()
+  }
 }
 
 function updateProgressBar() {
