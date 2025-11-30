@@ -69,7 +69,7 @@ function loadSong(index) {
     document.querySelector(".total-time").textContent = format(audio.duration);
 
   })
-  if(!audio.paused){
+  if(audio.paused){
     playPause()
   }
 }
@@ -95,3 +95,5 @@ document.querySelector(".bar").onclick = e =>{
 // Initial load
 
 loadSong(currentSongIndex);
+btnPlay.children[1].classList.add("inactive");
+btnPlay.children[0].classList.remove("inactive");
